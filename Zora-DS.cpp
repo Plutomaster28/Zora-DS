@@ -468,7 +468,6 @@ void processCommand(const std::string& command) {
         std::cout << "calendar - Display current date" << std::endl;
         std::cout << "clock - Display current time" << std::endl;
         std::cout << "clear - Clears out the screen" << std::endl;
-        std::cout << "MiyamiiQuest - Runs Miyamii Quest\n" << std::endl;
     }
     else if (cmd == "clear") {
         clearScreen();
